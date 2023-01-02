@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minenhle Dlamini</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/863896a49f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#AboutMe">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <i class="fa-regular fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-regular fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Minenhle Dlamini</h1>
+          <p>An aspiring Software Developer</p>
+        </div>
+      </div>
+    </div>
+    <!-- About Me -->
+    <div id="AboutMe">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="images/IMG_20221110_090723.jpg"/>
+          </div>
+          <div class="about-col2">
+            <h1>About Me</h1>
+            <p>
+              My name is Minenhle Dlamini and I’m an Aspiring software developer
+              formerly an assistant radar technician. Minenhle(mini) is a hard
+              working dedicated person, who values learning not only from
+              conventional methods but also through experience. I'm highly
+              adaptable and can work well in a team... I've learnt a lot from my
+              experiences from studying various subjects in different
+              industries, as I've worked in the Electrical industry as an
+              assistant electrician and also have worked as an assistant radar
+              technician. I plan to implement all lessons learnt both good and
+              bad to help progress myself and whichever team or company i may be
+              employed at. My interest in technology and programming started
+              during the pandemic when we went through the lockdown. Here I
+              wanted to find a way to future proof my financial situation and
+              also a change of career. Found an ad speaking about data science
+              and the career options it can open up... So I started doing some
+              research and found that I really had a keen interest in the type
+              of work I was seeing. I started this tech journey at Wethinkcode_
+              doing their two year programme to obtain NQF level 5 in Software
+              Development. Here I learnt so much, and this has grown my thirst
+              to immerse myself with as much knowledge and skills as I can, to
+              help me get to where I want to be and help me be a contributor to
+              the world of tech. This has caused me to go and look at other
+              industries of interest in the tech field, and I have a keen
+              interest in the Data Engineering and Cybersecurity world, and I’m
+              currently working on trying to get more education and certificates
+              in these industries.
+            </p>
+            <div class="tabs">
+              <p class="tab-link active-link" onclick="opentab('skills')">
+                <strong>Skills</strong>
+              </p>
+              <p class="tab-link" onclick="opentab('hobbies')">
+                <strong>Hobbies</strong>
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>Systems Integration</li>
+                <li>Object Orientated Programming</li>
+                <li>Brownsfield Development</li>
+                <li>API</li>
+                <li>SQLite</li>
+                <li>Python Programming Language</li>
+                <li>Java</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="hobbies">
+              <ul>
+                <li>touch rugby</li>
+                <li>exercising</li>
+                <li>Coaching rugby</li>
+                <li>Socializing</li>
+                <li>fishing</li>
+                <li>Just having fun with friends</li>
+                <li>cooking</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- education -->
+    <div id="education">
+      <div class="container">
+        <h1>Education</h1>
+        <div class="education-list">
+          <div>
+            <h2>High School</h2>
+            <p>Jeppe High School for Boys<br />2007-2011</p>
+          </div>
+          <div>
+            <h2>Tertiary</h2>
+            <p>
+              Protech Training<br />NQF level 4 Electrical Engineering<br />2013-2015
+            </p>
+          </div>
+          <div>
+            <h2>Change of Career</h2>
+            <p>
+              WeThinkCode_ <br />NQF Level 5 Software Development<br />2021-2022
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects -->
+    <div id="projects">
+      <div class="container">
+        <h1>Projects and Certifications</h1>
+        <div class="work-certs">
+          <div>
+            <h2><strong>work</strong></h2>
+            <a href="https://github.com/Mini2630/Mini2630"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <p>Some projects on Github:</p>
+            <br />
+            <ul>
+              <li>DustCommander website</li>
+              <li>
+                DustCommander cattle management System<br /><span
+                  >Not Yet Completed</span
+                >
+              </li>
+              <li>Calculator</li>
+              <li>Portfolio website</li>
+            </ul>
+          </div>
+          <div>
+            <h2><strong>Certifications</strong></h2>
+            <ul>
+              <li>introduction to cyberSecurity<br />by Slimplilearn</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div id="contacts">
+      <div class="container">
+        <h1>Contacts</h1>
+        <div class="contact-details">
+          <div>
+            <p>Email: minenhledlamini26@gmail.com</p>
+            <p>Cell: 0670117324</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/minenhle-dlamini-b479a51b6/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-link");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classlist.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+  </body>
+</html>
