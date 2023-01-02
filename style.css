@@ -20,7 +20,7 @@ body{
 }
 .about-col1 img{
     width: 40%;
-    height: vh;
+    height: 70vh;
    image-rendering: optimizeQuality;
     
 }
